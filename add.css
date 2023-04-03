@@ -37,13 +37,15 @@
   color: #FFFFFF;
   width: 60px;
   height: 30px;
-  background-color: #FF9A4B
+  background-color: #FF9A4B;
+  padding-left: 5px;
 }
 
 .image1 {
   height: 150px;
   margin: 10px 10px 15px 10px;
   background-image: url(img-Assignment1/flow01.png);
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -51,6 +53,7 @@
   height: 150px;
   margin: 10px 10px 15px 10px;
   background-image: url(img-Assignment1/flow02.png);
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -58,6 +61,7 @@
   height: 150px;
   margin: 10px 10px 15px 10px;
   background-image: url(img-Assignment1/flow03.png);
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -74,19 +78,15 @@
 
 
 @media screen and (max-width: 425px) {
-.contents {
+main {
   width: 100%;
   display: block
 }
 
-.contents2{
-  width: 100%;
-  display: block
-}
-
-.contents3{
-  width: 100%;
-  display: block
+.contents{
+   width: 90%;
+   margin: 0 auto;
+   margin-bottom: 30px;
 }
 
 }
