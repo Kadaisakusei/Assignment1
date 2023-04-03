@@ -14,6 +14,7 @@
   width: 960px;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .contents{
@@ -23,10 +24,20 @@
 
 .image{
   height: 150px;
-  padding: 10px,10px,15px,10px;
+  margin: 10px 10px 15px 10px;
+}
+
+.image .1 {
+  background-image: url(img-Assignment1/flow01.png);
 }
 
 .text{
   width: 300px
 
+}
+
+.bar-under {
+  height: 50px
+  background-color: #AAAAAA;
+  margin-top: 50px;
 }
